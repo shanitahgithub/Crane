@@ -248,6 +248,10 @@ nav {
   display: flex;
   justify-content: space-around;
   margin: 40px 0;
+  /* max-width: 818px; 
+  margin-left: 30px; */
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .feature-item {
