@@ -1,0 +1,103 @@
+.register-container {
+  display: flex; /* Use flexbox to arrange elements horizontally */
+  max-width: 2000px; /* Adjust the width to accommodate both image and form */
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: auto; /* Adjust height to fit content */
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-photo/serving-platter-with-grilled-chicken-pieces-topped-with-sauce_140725-8666.jpg?uid=R154560202&ga=GA1.2.1739364239.1719926120&semt=ais_user");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Center-align the items vertically */
+}
+
+.register-image {
+  max-width: 50%; /* Ensure the image doesn't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px;
+  /* Space between image and form */
+}
+
+.form-container {
+  /* flex: 1;  */
+  text-align: left;
+  flex: 0 0 40%;
+  margin-left: 400px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  border-radius: 2px solid white;
+  /* Align form text to the left */
+}
+
+h2 {
+  text-align: center; /* Center-align the heading */
+  margin-bottom: 20px;
+  color: #f09226;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.register-form .form-group {
+  margin-bottom: -24px;
+  margin-right: 90px; /* Reduced margin to decrease height */
+}
+
+.register-form label {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 2px;
+}
+
+.register-form input {
+  padding: 8px;
+  box-sizing: border-box;
+  margin-left: -2px;
+  width: 480px;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #4f1500;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #4f1500;
+}
+
+/* .login-link {
+  text-align: center;
+  margin-top: 20px;
+  color: #4f1500;
+}
+
+.login-link a {
+  color: navy;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+} */
+
+.login-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+  .form-container {
+    margin-left: 7px;
+    margin-top: 46px;
+    width: 98%;
+  }
+
+  .register-form input {
+    width: 322px;
+  }
+}

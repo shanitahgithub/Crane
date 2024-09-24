@@ -1,0 +1,14 @@
+services:
+  frontend:
+    build:
+      context: ./restaurant-website
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+
+  backend:
+    build:
+      context: ./My_Project
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"

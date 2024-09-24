@@ -1,0 +1,28 @@
+/* src/components/BreakfastCombos.css */
+
+.breakfast-combos {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/022/722/061/non_2x/order-now-sale-label-banner-on-transparent-background-png.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.text-overlay {
+  color: #002c56; /* Adjust color to match your design */
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .breakfast-combos {
+    margin-top: 55px;
+    height: 120px;
+  }
+}

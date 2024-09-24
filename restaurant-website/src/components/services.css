@@ -1,0 +1,83 @@
+/* src/components/CateringServices.css */
+
+/* .services {
+  background-image: url("https://nyomplanet.com/storage/images/blog/doof2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+
+  border-radius: 10px;
+} */
+.catering-services {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.catering-services h1 {
+  font-size: 3em;
+  color: #d4a373;
+  margin: 0;
+}
+
+.catering-services h2 {
+  font-size: 30px;
+  font-weight: bold;
+  /* margin: 10px 0 30px; */
+  margin-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.service-icon {
+  font-size: 4em;
+  color: #f09226;
+  margin-bottom: 20px;
+}
+
+.service-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #4f1500;
+}
+
+.service-item p {
+  font-size: 1em;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+.event-services h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+.services {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.event-services {
+  margin-bottom: 50px;
+}
+
+.water-mark {
+  position: fixed;
+  top: 50%; /* Adjust top position */
+  left: 50%; /* Adjust left position */
+  transform: translate(-50%, -50%) rotate(-45deg); /* Rotate text */
+  font-size: 3rem;
+  /* font-weight: bold; */
+  color: #4f1500; /* Semi-transparent black */
+  pointer-events: none;
+  z-index: 1000;
+}

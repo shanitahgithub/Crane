@@ -1,0 +1,259 @@
+.contact-container {
+  display: flex;
+
+  padding: 76px;
+  background-color: #f9f9f9;
+  gap: 105px;
+  margin-top: -89px;
+  margin-bottom: -1px;
+  background-image: url("https://static.wixstatic.com/media/aa878b_e891dfe9e8c54506838e01606320f248~mv2.jpg/v1/fill/w_654,h_436,al_c,q_80,usm_2.00_1.00_0.00,enc_auto/catering-business_-Photo-by-Thanakorn-Ja.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-container h1 {
+  text-align: center !important;
+  color: #f15a24;
+  margin-bottom: 10px;
+
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.infoSection {
+  width: 45%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+}
+
+.info {
+  font-size: 18px;
+  margin-bottom: 15px;
+  line-height: 2.5;
+  text-align: left;
+}
+.cont {
+  color: #4f1500;
+  display: inline;
+}
+
+.info i {
+  color: #f15a24;
+  margin-right: 10px;
+}
+/* button {
+  color: white;
+} */
+.text-center {
+  text-align: center;
+  color: #f09226;
+  font-family: "Times New Roman", Times, serif;
+}
+.formSection {
+  width: 45%;
+  padding: 40px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.textarea {
+  height: 100px;
+}
+
+.button {
+  background-color: #4f1500;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #4f1500;
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.message.success {
+  color: green;
+}
+
+.message.error {
+  color: red;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  padding-left: 210px;
+  color: #4f1500;
+  margin-top: 160px;
+}
+/* .icons:hover {
+  color: #4f1500;
+} */
+
+.social-icons a {
+  font-size: 100px;
+}
+.icons a {
+  font-size: 20px;
+  color: #f09226;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.icons a {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icons a:hover {
+  transform: scale(1.2);
+}
+
+/* .contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  gap: 120px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.contact-container h1 {
+  color: #f15a24;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.infoSection,
+.formSection {
+  width: 45%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+}
+
+.info {
+  font-size: 18px;
+  margin-bottom: 15px;
+  line-height: 2.5;
+  text-align: left;
+}
+
+.cont {
+  color: #4f1500;
+  display: inline;
+}
+
+.info i {
+  color: #f15a24;
+  margin-right: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.textarea {
+  height: 100px;
+}
+
+.button {
+  background-color: #4f1500;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #4f1500;
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.message.success {
+  color: green;
+}
+
+.message.error {
+  color: red;
+} */
+
+@media (max-width: 500px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    /* width: 213%; */
+    height: auto;
+    padding: 20px;
+  }
+  .infoSection {
+    width: 100%;
+    margin-top: 94px;
+    height: 455px;
+  }
+  .formSection {
+    width: 100%;
+  }
+  .icons a {
+    margin-top: -91px;
+    margin-right: -126px;
+  }
+  h1 {
+    margin-top: 69px;
+  }
+}

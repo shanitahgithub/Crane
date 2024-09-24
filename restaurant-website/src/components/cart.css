@@ -1,0 +1,276 @@
+/* .cart-page {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.cart-header {
+  margin-bottom: 20px;
+}
+
+.cart-header h2 {
+  color: #4a4a4a;
+}
+
+.cart-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item-image {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+}
+
+.cart-item-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.cart-item-price {
+  color: #fa4a0c;
+  margin-top: 5px;
+}
+
+.cart-item-quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity-button {
+  background-color: #fa4a0c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.remove-button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cart-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.cart-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.continue-shopping-button,
+.checkout-button {
+  background-color: #fa4a0c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.continue-shopping-button {
+  background-color: #d3d3d3;
+} */
+
+.cart-page {
+  padding: 20px;
+  background-color: #f8f8f8;
+  margin-bottom: 40px;
+  /* box-shadow: 0 4px 8px red; */
+  /* border-radius: 20px; */
+}
+
+.cart-header {
+  margin-bottom: 20px;
+}
+
+.cart-header h2 {
+  color: #f09226;
+}
+
+.cart-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item-image {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+}
+
+.cart-item-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.cart-item-price {
+  color: #fa4a0c;
+  margin-top: 5px;
+}
+
+.cart-item-quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.cart-item-details p {
+  color: #4f1500;
+}
+
+.quantity-button {
+  background-color: #fa4a0c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.remove-button {
+  background-color: #4f1500;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #f09226;
+}
+.cart-summary {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.delivery-address {
+  margin-bottom: 10px;
+}
+
+.delivery-address label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #f09226;
+}
+
+.delivery-address textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+  height: 60px;
+}
+
+.cart-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.continue-shopping-button,
+.checkout-button {
+  background-color: #4f1500;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.continue-shopping-button {
+  background-color: #4f1500;
+  color: white;
+}
+
+.error-message,
+.success-message {
+  margin-top: 10px;
+  /* padding: 10px; */
+  /* border-radius: 5px; */
+}
+
+.error-message {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.success-message {
+  /* background-color: #4caf50; */
+  color: #4caf50;
+}
+
+@media (max-width: 500px) {
+  .cart-header h1 {
+    margin-top: 50px;
+  }
+  .delivery-address textarea {
+    margin-left: -12px;
+    height: 50px;
+  }
+  .cart-page {
+    margin-top: 20px;
+  }
+}

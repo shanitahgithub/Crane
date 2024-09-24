@@ -1,0 +1,133 @@
+/* login.css */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  margin-bottom: 40px;
+  width: 300px;
+  margin-left: 500px;
+  padding: 40px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: white;
+  margin-top: 50px;
+
+  /* display: flex;
+  flex-direction: column; */
+}
+.form-1 {
+  background-image: url("https://img.freepik.com/premium-photo/delicious-grilled-chicken-sausage-with-fresh-salad-fries_711700-20082.jpg?uid=R154560202&ga=GA1.2.1739364239.1719926120&semt=ais_user");
+  /* Reduced margin to decrease height */
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+body {
+  /* background-image: url("https://img.freepik.com/premium-photo/delicious-grilled-chicken-sausage-with-fresh-salad-fries_711700-20082.jpg?uid=R154560202&ga=GA1.2.1739364239.1719926120&semt=ais_user"); */
+  /* Reduced margin to decrease height */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login-in {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  color: #4f1500;
+}
+/* input {
+  color: #4f1500; */
+
+/* button {
+  color: #4f1500;
+} */
+
+.login-form div {
+  margin-bottom: -20px;
+}
+h2 {
+  margin-bottom: 10px;
+}
+
+.login-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #4f1500;
+}
+
+.login-in input[type="password"] {
+  width: 1000;
+  padding: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555555;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 2px;
+  background-color: #4f1500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #4f1500;
+}
+
+.error-message,
+.success-message {
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.error-message {
+  color: #d32f2f;
+}
+
+.success-message {
+  color: #388e3c;
+}
+/* button {
+  color: #4f1500;
+} */
+/* label {
+  color: #f09226;
+} */
+@media (max-width: 500px) {
+  .form-1 {
+    margin-left: -479px;
+  }
+  .login-form div {
+    margin-bottom: 23px;
+  }
+  input[type="password"] input[type="email"] {
+    width: auto;
+
+    margin-top: 16px;
+  }
+
+  .login-form button {
+    margin-bottom: -45px;
+    margin-top: 24px;
+  }
+}

@@ -1,0 +1,7 @@
+_pycache__/config.cpython-312.pyc
+restaurant_app/models/__pycache__/
+__pycache__/
+env/
+restaurant_app/__pycache__/
+restaurant_app/controllers/rest/__pycache__/
+migrations/__pycache__/
