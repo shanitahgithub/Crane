@@ -10,11 +10,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.formSection .header {
+  color: #f09226;
+}
 
 .contact-container h1 {
   text-align: center !important;
   color: #f15a24;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
   font-size: 25px;
   font-family: "Times New Roman", Times, serif;
@@ -41,7 +44,7 @@
 }
 
 .info i {
-  color: #f15a24;
+  color: #f09226;
   margin-right: 10px;
 }
 /* button {

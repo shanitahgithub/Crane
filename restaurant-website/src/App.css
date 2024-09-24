@@ -97,6 +97,7 @@ nav {
   display: flex;
   align-items: center;
   color: #f09226;
+  margin-right: 200px;
 }
 
 .App-link {

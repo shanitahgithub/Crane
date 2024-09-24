@@ -79,7 +79,7 @@ function App() {
                   Home
                 </Link>
                 <Link className="App-link" to="/about us">
-                  About
+                  About Us
                 </Link>
                 <Link className="App-link" to="/menu">
                   Menu
@@ -92,7 +92,7 @@ function App() {
                 </Link>
 
                 <Link className="App-link" to="/contact">
-                  Contact
+                  Contact Us
                 </Link>
 
                 {!loggedIn ? (

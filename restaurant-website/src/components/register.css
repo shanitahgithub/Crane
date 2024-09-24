@@ -89,6 +89,9 @@ h2 {
   text-align: center;
   margin-top: 20px;
 }
+.form-container h2 {
+  color: #f09226;
+}
 
 @media (max-width: 500px) {
   .form-container {
